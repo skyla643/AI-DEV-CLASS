@@ -9,12 +9,12 @@ This repository contains information about a course I'm currently taking: **AI F
 ### Key Dates
 | **Session** | **Date**  |
 |-------------|-----------|
-| 1           | 5/23      |
-| 2           | 5/30      |
-| 3           | 6/7       |
-| 4           | 6/14      |
-| 5           | 6/21      |
-| 6           | 6/28      |
+| 1           | 9/23      |
+| 2           | 9/30      |
+| 3           | 10/7       |
+| 4           | 10/14      |
+| 5           | 10/21      |
+| 6           | 10/28      |
 
 ---
 
