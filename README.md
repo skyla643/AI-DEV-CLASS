@@ -80,39 +80,4 @@ This repository contains information about a course I'm currently taking: **AI F
 
 ---
 
-## Week 2 To-Do List
-
-### Complete the Following by Next Class:
-1. **Complete "Elements of AI" Registration**:
-   - Sign up for the [Elements of AI](https://www.elementsofai.com/) course.
-   - Complete Chapters 1 and 2.
-
-2. **Subscribe to AI-Related Newsletters**:
-   - Subscribe to **The Batch by Andrew Ng** and **Import AI**.
-   - Choose at least two more newsletters from the list (e.g., **The Variable**, **Every**, **Alpha Signal**).
-   - Email Mike the names of the newsletters you selected.
-
-3. **Summarize an AI-Related Article**:
-   - Read an AI-related article from your subscriptions.
-   - Use an AI chatbot (e.g., Claude, ChatGPT) to create a summary.
-   - Submit your summary using the [Assignment Form](https://tinyurl.com/AI-Foundations-Assignments).
-
-4. **Practice with AI Tools**:
-   - Engage with AI chatbots like **Poe**, **Claude.ai**, or **ChatGPT**.
-   - Practice prompt engineering to understand how to get better responses from AI.
-
-5. **Fill Out Assignment Form for Week 1**:
-   - Confirm completion of Elements of AI registration.
-   - Confirm newsletter subscriptions.
-
-6. **Prepare for Class Discussion**:
-   - Be ready to discuss content from Chapters 1 and 2 of Elements of AI.
-   - Participate in AI chatbot demos (e.g., **Poe**, **Claude.ai**).
-   - Reflect on AI's social, ethical, and technical implications for discussion in the next class.
-
-**Due**: 24 hours before the next class (Week 2 - 5/30).
-
-
----
-
 This repository serves as documentation of my journey in the AI Foundations for Workplace Success course. It highlights my learnings, projects, and my growing expertise in artificial intelligence tools and techniques, demonstrating my knowledge in a way that is relevant for employers and potential collaborators.
