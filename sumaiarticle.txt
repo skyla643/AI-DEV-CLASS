@@ -1,0 +1,41 @@
+Summarize an AI-Related Article:
+Read an AI-related article from your subscribed newsletters.
+Use an AI chatbot to create a summary and submit it via the AMA assignment form.
+
+my chouce of summary was this article using chat gpt: https://medium.com/@vipra_singh/llm-architectures-explained-nlp-fundamentals-part-1-de5bf75e553a
+
+Article Summary: LLM Architectures Explained - NLP Fundamentals (Part 1)
+Author: Vipra Singh
+Published on Medium, August 15, 2024
+
+This article provides a comprehensive introduction to Natural Language Processing (NLP) and its core techniques, offering foundational knowledge for understanding real-world applications of NLP models.
+
+Key Topics Covered:
+What is NLP?
+
+NLP enables machines to manipulate and understand human language in its written and spoken forms. It is divided into two key areas:
+Natural Language Understanding (NLU): Interpreting the meaning of text.
+Natural Language Generation (NLG): Producing human-like text.
+Applications of NLP:
+
+Sentiment Analysis: Detects emotional tone in text, used in customer feedback systems.
+Toxicity Classification: Identifies hostile or harmful content for moderation.
+Machine Translation: Converts text between languages (e.g., Google Translate).
+Named Entity Recognition (NER): Extracts and classifies entities (e.g., people, organizations) from text.
+Spam Detection, Text Generation, Information Retrieval, and Summarization are also significant applications.
+How NLP Works:
+
+Data Preprocessing: Techniques like tokenization, stemming, lemmatization, and normalization prepare text data for model input.
+Feature Extraction: Methods such as Bag-of-Words (BoW), TF-IDF, N-grams, and Word Embeddings create numeric representations of text data.
+Modeling Techniques: Traditional machine learning and deep learning methods are used for NLP tasks, including RNNs, LSTMs, Transformers, and BERT.
+The Evolution of NLP:
+
+The article traces NLP’s history from rule-based systems (1950s) to the rise of neural networks (2010s), culminating in large language models (LLMs) like GPT-3, GPT-4, and LLama.
+Significant milestones include the introduction of RNNs, Word2Vec (2013), and Transformers (2017), which have revolutionized modern NLP tasks.
+Comparative Analysis of NLP Models:
+
+Discusses how newer models like Transformers outperform traditional methods like RNNs by handling long-range dependencies and offering better parallel processing capabilities.
+Conclusion:
+
+The article highlights the significance of understanding NLP fundamentals, preparing readers for more advanced topics like word embeddings, transformers, and the continued evolution of NLP.
+This summary offers an overview of the main points discussed in the article and serves as a solid foundation for understanding the basics of Natural Language Processing (NLP) and Large Language Models (LLMs).
