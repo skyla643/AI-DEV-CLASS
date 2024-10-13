@@ -1,0 +1,108 @@
+## Chapter 1: What is AI?
+
+**Key Questions:**
+- Will a robot take my job?
+- How is AI likely to change my job in the next ten years?
+- Where are AI technologies being used right now, and where will they come next?
+
+---
+
+### Section Overview:
+
+1. **How should we define AI?**
+   - Exercise: 0/1
+
+2. **Related fields**
+   - Exercise: 0/2
+
+3. **Philosophy of AI**
+   - Exercise: 0/1
+
+---
+
+### Section I: How should we define AI?
+
+In this section, we'll explore the concept of AI by looking into its definition and examples. AI is a broad and frequently discussed topic, with different interpretations depending on the person. Some define AI as advanced artificial life-forms, while others apply the term to almost any form of data processing.
+
+To provide some clarity, we’ll begin by discussing the definition of AI and its related fields. To illustrate different aspects of AI, we’ll explore three major applications: **self-driving cars**, **content recommendation**, and **image/video processing**.
+
+---
+
+#### Application 1: Self-Driving Cars
+
+Self-driving cars use a combination of AI techniques such as:
+- **Search and planning** to find the best routes.
+- **Computer vision** to detect obstacles.
+- **Decision making under uncertainty** to manage dynamic environments.
+
+**Implications:**
+- Improved road safety.
+- Enhanced logistics efficiency.
+- Shift of human roles toward supervision.
+
+---
+
+#### Application 2: Content Recommendation
+
+Content recommendation algorithms personalize information on platforms like Facebook, X, Instagram, Spotify, and Netflix. These algorithms are based on AI, and they determine what content users see.
+
+**Implications:**
+- Potential for filter bubbles, echo chambers, fake news, and propaganda.
+
+---
+
+#### Application 3: Image and Video Processing
+
+Face recognition and image manipulation are used in various applications such as photo organization, automatic tagging, and even generating fake videos that look real.
+
+**Implications:**
+- Challenges in distinguishing between real and fake video content.
+
+---
+
+### What is, and what isn’t AI?
+
+The definition of AI is not straightforward. Let’s explore a few reasons:
+
+1. **No official definition**: AI researchers have no universally agreed definition.
+2. **The legacy of science fiction**: Popular media often distorts public perceptions of AI.
+3. **Easy tasks for humans are hard for AI**: For example, grasping objects is a challenging task for robots.
+4. **Hard tasks for humans are easy for AI**: Playing chess or solving math problems can be simpler for AI.
+
+---
+
+### Key Terminology
+
+- **Autonomy**: Ability to perform tasks in complex environments without constant user guidance.
+- **Adaptivity**: Ability to improve performance through learning from experience.
+
+**Suitcase Words:**  
+Words like "learning," "understanding," and "intelligence" often carry multiple meanings, leading to confusion about AI's capabilities.
+
+---
+
+### Section II: Related Fields (coming soon)
+
+### Section III: Philosophy of AI (coming soon)
+
+---
+
+### Exercise 1: Is this AI or not?
+
+**Instructions:**  
+Choose yes, no, or “kind of” to determine if the following are AI.
+
+- **Spreadsheet that calculates sums and other pre-defined functions on given data**  
+  **Answer:** No
+- **Predicting the stock market by fitting a curve to past data**  
+  **Answer:** Kind of
+- **GPS navigation system for finding the fastest route**  
+  **Answer:** Yes
+- **Music recommendation system like Spotify**  
+  **Answer:** Yes
+- **Big data storage solutions for streaming**  
+  **Answer:** No
+- **Photo editing features like brightness/contrast in Photoshop**  
+  **Answer:** No
+- **Style transfer filters in Prisma (transforming photos into art styles)**  
+  **Answer:** Yes 
