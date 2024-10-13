@@ -1,4 +1,4 @@
-### AI Foundations for Workplace Success
+## AI Foundations for Workplace Success
 
 #### Overview
 This repository documents my learning journey in the AI Foundations for Workplace Success course. The course provides foundational knowledge in artificial intelligence, focusing on practical tools, techniques, and ethical implications of AI in the workplace. This README serves as a reference for potential employers, collaborators, or anyone interested in understanding the scope and content of my AI education.
