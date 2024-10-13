@@ -1,0 +1,41 @@
+Chapter 2: AI Problem Solving
+Search algorithms may not seem like the most exciting AI methods, but they are essential for solving tasks that require intelligence, such as navigation or playing chess. In this chapter, we will explore these algorithms and how they apply to problem-solving in AI.
+
+Sections Covered:
+Search and Problem Solving (0/2 exercises completed)
+Solving Problems with AI
+Search and Games (0/1 exercises completed)
+I. Search and Problem Solving
+Many problems in AI can be approached as search problems, where you formulate alternative choices and their consequences. One classic example is navigating from one point to another, such as using a smartphone app to find a restaurant in a foreign city. Similarly, AI systems for self-driving cars or chess-playing algorithms use search techniques to explore possible moves and outcomes.
+
+Although there may be many ways to solve a problem, some solutions are more efficient in terms of time, cost, or effort. Different search techniques can lead to different solutions. Rather than focusing on specific search algorithms, we emphasize the importance of defining the choices and consequences and determining when a problem is considered solved.
+
+We will look at two types of problems:
+
+Search and planning in static environments with only one agent.
+Games with two players (agents) competing against each other.
+Toy Problem: Chicken Crossing Puzzle
+Let’s start with a simple puzzle. A robot must move three items—a fox, a chicken, and a sack of chicken feed—across a river. The fox will eat the chicken if left alone, and the chicken will eat the feed if left unattended. The robot must ensure this doesn’t happen, but it can only take two items on the boat at a time. The goal is to move all items safely to the other side.
+
+Key Terminology:
+
+State Space: The set of possible situations or configurations (e.g., where each item is located). For the chicken crossing puzzle, there are ten possible states.
+
+Transitions: Possible moves between one state and another (e.g., moving the robot and the fox across the river).
+
+Costs: Differences in transitions. Some transitions may be more expensive or preferable, such as shorter travel time or distance.
+
+Exercise 5: A Smaller Rowboat
+In this traditional version of the puzzle, the robot can only fit one item on the boat with it, making fewer transitions possible. The state space remains the same, but the shortest path from NNNN to FFFF involves 7 transitions.
+
+Exercise 6: The Towers of Hanoi
+This puzzle involves moving two discs (a large and a small one) between three pegs. The goal is to move both discs from the first peg to the third peg without placing a larger disc on a smaller one. There are nine possible states in the puzzle.
+
+The correct answers for the states in each box are:
+
+Box 1: State E
+Box 2: State B (Correct)
+Box 3: State F
+Box 4: State D (Correct)
+Box 5: State C
+Box 6: State A
