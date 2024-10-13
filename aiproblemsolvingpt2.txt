@@ -1,0 +1,21 @@
+I. Solving Problems with AI
+Interlude on the History of AI: Starting from Search
+
+AI is nearly as old as computer science itself. Long before computers existed, people imagined the possibility of automatic reasoning and intelligence. One of the early thinkers in this area was Alan Turing, whose contributions to both AI and computer science were groundbreaking. Turing showed that anything that can be computed—whether using numbers or other symbols—can be automated.
+
+Note: Helping Win WWII
+Turing designed a theoretical device called the Turing machine, capable of computing anything computable. While not practical for everyday use, it laid the foundation for programmable computers—machines capable of performing different tasks based on their programming. This concept, revolutionary in Turing’s time, played a crucial role in World War II, where Turing contributed to cracking German secret codes.
+
+The term Artificial Intelligence (AI) was coined by John McCarthy in 1956. Often referred to as the "Father of AI," McCarthy organized the famous Dartmouth Conference, which marked the formal beginning of AI as a field of study. In the conference proposal, McCarthy built on Turing’s work by stating:
+
+Note: John McCarthy’s Key Statement About AI
+“The study is to proceed on the basis of the conjecture that every aspect of learning or any other feature of intelligence can, in principle, be so precisely described that a machine can be made to simulate it.”
+
+In essence, this means that any element of intelligence can be broken down into small, simple steps that can be written as a computer program. Although this idea is still a conjecture (not yet proven), it has become central to AI research. McCarthy’s statement dismisses arguments like Searle’s Chinese Room, implying that intelligence remains intelligence even when achieved by a computer following a mechanical process.
+
+Why Search and Games Became Central in AI Research
+As computers advanced in the 1950s, researchers began experimenting with AI algorithms. One of the early challenges in AI was games, as they provided a restricted domain that could be easily formalized. Classic games like checkers, chess, and the ancient game of Go became central in AI research, as they required strategic thinking and problem-solving.
+
+In the 1960s, search and planning techniques emerged as key areas of AI development. Algorithms such as Minimax and Alpha-Beta Pruning, developed during this time, remain the foundation of modern game-playing AI. Although more advanced versions of these algorithms have been introduced, they paved the way for AI's success in solving complex problems, both in games and other applications.
+
+In this chapter, we will explore games and planning problems conceptually, demonstrating how search techniques have shaped AI development.
