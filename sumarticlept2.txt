@@ -1,0 +1,32 @@
+Summarize an AI-Related Article:
+Read an AI-related article from your subscribed newsletters.
+Use an AI chatbot to create a summary and submit it via the AMA assignment form.
+
+my chouce of summary was this article using chat gpt: https://www.deeplearning.ai/the-batch/text-to-image-generators-face-off-in-arena-leaderboard-by-artificial-analysis/
+
+AI-Related Article Summary: "Image Generators in the Arena"
+Published by: The Batch, July 17, 2024
+
+This article discusses a new competition where top text-to-image generators are compared head-to-head through the Text to Image Arena leaderboard, a platform run by Artificial Analysis. The rankings are based on user feedback, with the public voting on which AI model best matches image prompts.
+
+Key Details:
+How It Works:
+
+Random Matchups: Two models are randomly chosen and provided a unique prompt. The public votes on which model better reflects the prompt.
+Elo Ratings: Models are ranked using Elo ratings, based on how well they perform against others in head-to-head comparisons.
+Performance Tracking: The platform also measures the time taken to generate images and the cost to produce 1,000 images.
+Current Rankings:
+
+Midjourney v6 leads with an Elo rating of 1,176 (71% win rate), followed closely by Stable Diffusion 3 with an Elo rating of 1,156 (67% win rate).
+DALL·E 3 HD is in third place, barely ahead of Playground v2.5.
+Midjourney v6 is significantly slower than its competitors, taking an average of 85.3 seconds per image, while DALL·E 3 HD and Stable Diffusion 3 are much faster.
+Cost Analysis:
+
+Midjourney v6 and Stable Diffusion 3 cost around $65-$66 per 1,000 images, while DALL·E 3 HD costs more at $80. Playground v2.5 is the most affordable, at only $5.13 per 1,000 images.
+Behind the Competition:
+
+The Text to Image Arena is similar to LMSys Chatbot Arena, which allows users to compare language models. However, Text to Image Arena includes models like Midjourney and DALL·E, which aren’t typically part of other open model platforms.
+Why It Matters:
+
+This competition provides valuable insight into how well text-to-image models generate images based on subjective user preferences. The system could even improve AI models using feedback from these competitions to fine-tune their results through reinforcement learning.
+This comparison helps identify the best-performing image generators, factoring in quality, speed, and cost, offering users a unique way to assess which model suits their needs.
