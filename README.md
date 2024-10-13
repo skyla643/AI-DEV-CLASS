@@ -1,7 +1,3 @@
-Here's an updated version of your README file based on the course details:
-
----
-
 # AI Foundations for Workplace Success
 
 ## Overview
