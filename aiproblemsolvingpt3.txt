@@ -1,0 +1,25 @@
+III. Search and Games
+
+In this section, we explore a classic AI problem: games. We will focus on two-player, perfect-information games such as tic-tac-toe and chess.
+
+Example: Playing Tic-Tac-Toe Maxine (Max) and Minnie (Min) love two-person, perfect-information games like tic-tac-toe and chess. One day, while playing tic-tac-toe, Max, playing with X, was contemplating her next move after Min played with O. Max looked at the board, dismayed, as Min was close to winning with three Os in the top row. Although Max could stop this, she appeared pessimistic.
+
+Game Trees To solve games using AI, we use a game tree. A game tree represents the different states of a game as nodes, where each level corresponds to a player's turn. The root node is the initial position, and child nodes represent the possible states after a player's move. This structure continues until reaching end-game states—either a win for one player or a draw.
+
+Minimizing and Maximizing Value To create an AI that aims to win, we assign values to the game’s outcomes. A win for Max (X) is assigned +1, a win for Min (O) is -1, and a draw is 0. Max aims to maximize this value, while Min tries to minimize it.
+
+A Sample Game Tree In the middle of a tic-tac-toe game, we could construct a game tree, showing the possible moves and outcomes. The tree alternates between Max's and Min's turns. Max aims to choose moves that lead to the highest values (+1), while Min selects moves that result in the lowest values (-1). We work backward from the end-game states to determine the optimal strategy for each player.
+
+Being Strategic Max and Min’s strategy can be determined by analyzing the game tree. For example, if both child nodes of a parent node lead to Min’s victory, the parent node is assigned a value of -1. If Max has a choice between a win and a loss, the value of the parent node will be +1, as Max will always choose the winning move. This reasoning allows us to predict the outcome of the game from any state.
+
+The Minimax Algorithm The Minimax algorithm is an essential concept for solving two-player, perfect-information games. It calculates the best move by evaluating game tree nodes and selecting the move that maximizes or minimizes the value, depending on whose turn it is. The algorithm ensures optimal gameplay in games like tic-tac-toe, chess, and Go.
+
+Handling Large Game Trees In some games like chess or Go, the game tree can be massive, making it impractical to explore every possible move. To manage this, AI uses heuristic evaluation functions that estimate the likely outcome of a game based on the current board position. For example, in chess, heuristics may count pieces and consider strategic board control.
+
+Exercise 7: Why So Pessimistic, Max? In the tic-tac-toe game, Max must place an X on the top row to avoid losing. Once Min plays, the value of the game is determined using the Minimax algorithm. The value of the game is -1, indicating that Min can guarantee a win by playing optimally. This explains why Max has reason to be pessimistic.
+
+After completing this chapter, you should be able to:
+
+Formulate real-world problems as search problems.
+Represent games like tic-tac-toe as game trees.
+Use the Minimax algorithm to find optimal moves.
