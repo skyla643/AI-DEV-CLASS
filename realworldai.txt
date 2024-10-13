@@ -1,0 +1,52 @@
+Chapter 3/6
+
+Real World AI
+
+One reason modern AI methods work effectively in the real world, unlike many early methods from the 1960s to 1980s, is their ability to handle uncertainty. In this chapter, we’ll cover the following topics:
+
+Odds and Probability
+Bayes' Rule
+Naive Bayes Classification
+I. Odds and Probability
+In the real world, situations rarely involve perfect information, unlike in games like chess. Instead, there are many unknowns, such as missing information or deliberate deception. For example, consider a self-driving car. While the car can be programmed to get from point A to point B efficiently and safely, unpredictable events such as accidents, weather changes, or even debris on the road can complicate this task.
+
+A self-driving car relies on multiple sensors, including sonar-like systems and cameras, to detect its surroundings. However, sensors are prone to errors (referred to as "noise"). For example, one sensor may indicate the road turns left, while another may indicate the opposite. The challenge is to resolve these discrepancies without halting the car unnecessarily.
+
+Probability and Uncertainty
+Modern AI thrives by managing uncertainty using probability theory. In the past, methods like fuzzy logic attempted to handle imprecise information, but probability has become the preferred approach for addressing uncertainty.
+
+Why Probability Matters:
+Probability helps us quantify risks and uncertainties in various fields, whether it's determining the odds of winning in poker, forecasting economic trends, or assessing whether AI will automate certain jobs. While it’s difficult to measure probabilities exactly, systematic data collection allows us to make informed decisions.
+
+The Key Lesson About Probability:
+Understanding probability means recognizing that uncertainty can be treated as a quantifiable entity. It enables rational discussions about risks by assigning measurable values to uncertainties. For instance, in public health decisions, vaccines are tested to quantify risks and benefits. Even though exact risks aren’t always fully known, probability helps clarify the decision-making process.
+
+Exercise 8: Probabilistic Forecasts
+
+Question: Can we conclude that a forecast is correct based on a single outcome?
+
+If a forecast predicts a 90% chance of rain but it doesn’t rain, can we say the forecast was wrong? No. A 10% chance still exists, so the outcome does not disprove the forecast.
+Correct Answers:
+
+The forecast said 90% chance of rain, but it didn’t rain — Cannot be concluded.
+The forecast said 0% chance of rain, but it rained — Wrong.
+Monitoring a long-term forecast that predicts 80% rain, but it rains 60% of the time — Wrong.
+FiveThirtyEight predicted Clinton’s 71.4% chance of winning, but Trump won — Cannot be concluded.
+Odds and Probability
+Odds offer a simple way to express uncertainty. They are particularly helpful when updating beliefs as new information becomes available. For example, odds of 3:1 suggest that for every three successful outcomes, there is one failure. This can also be expressed as a fraction (3/4) or probability.
+
+Exercise 9: Odds
+Correct Answers:
+
+Odds for getting three of a kind in poker (1:46):
+
+Fraction: 1/47
+Percentage: 2.1%
+Odds for rain in Helsinki (206:159):
+
+Fraction: 206/365
+Percentage: 56.4%
+Odds for rain in San Diego (23:342):
+
+Fraction: 23/365
+Percentage: 6.3%
