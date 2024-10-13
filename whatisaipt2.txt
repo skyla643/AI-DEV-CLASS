@@ -1,17 +1,17 @@
 Section II: Related Fields
-In addition to AI, several closely related topics are important to understand. These include machine learning, data science, and deep learning.
+In addition to AI, there are several closely related fields worth understanding. These include machine learning, data science, deep learning, and robotics.
 
 1. Machine Learning
-Machine learning is considered a subfield of AI, though it can sometimes overlap with other fields like statistics. It enables AI solutions to be adaptive, allowing systems to improve their performance as they gain more experience or data.
+Machine learning is a subfield of AI, though it often overlaps with fields like statistics. It enables systems to improve their performance over time with more experience or data.
 
 Key Terminology:
 
 Machine Learning: Systems that improve their performance in a given task with more and more experience or data.
 2. Deep Learning
-Deep learning is a subfield of machine learning and, therefore, also a subfield of AI. The "depth" refers to the complexity of the mathematical models used, made possible by modern computing power. Deep learning will be covered in more detail in Chapter 5, but for now, it is sufficient to understand it as a special type of machine learning that has enabled major advances in AI.
+Deep learning is a subfield of machine learning and, by extension, a subfield of AI. The "depth" refers to the complexity of the models used, made possible by modern computing power. It will be covered in more detail in Chapter 5 but is understood as a special type of machine learning that has led to significant advances in AI.
 
 3. Data Science
-Data science is an umbrella term that includes machine learning, statistics, certain aspects of computer science (like algorithms and data storage), and web application development. It is also a practical discipline requiring knowledge of the domain it is applied to, such as business or science.
+Data science is an umbrella term that encompasses machine learning, statistics, certain aspects of computer science (such as algorithms and data storage), and web application development. It is a practical field that often requires domain-specific knowledge (e.g., business, science). Data science typically involves some AI, though not as much as headlines might suggest.
 
 Key Elements of Data Science:
 
@@ -21,37 +21,25 @@ Algorithms
 Data storage
 Domain-specific understanding
 4. Robotics
-Robotics involves building and programming robots that operate in complex real-world scenarios. It is often considered the ultimate challenge for AI, as it requires combining many areas of AI such as computer vision, speech recognition, natural language processing, and reasoning under uncertainty.
+Robotics involves building and programming robots to operate in complex, real-world environments. It is often seen as the ultimate challenge for AI because it requires combining many AI areas, such as computer vision, speech recognition, natural language processing, and reasoning under uncertainty.
 
 Examples of AI-Driven Components in Robotics:
-Computer vision and speech recognition for sensing the environment.
-Natural language processing and reasoning for processing instructions.
-Cognitive modeling and affective computing for human-robot interaction.
-Note:
 
-What is a Robot?
-A robot is a machine that senses and acts upon its environment through sensors and actuators. Robots do not have to resemble humans (as often depicted in science fiction) but are designed for their specific functions. For example, autonomous vehicles are considered robots, whereas software-based tools like chatbots are not classified as robots, despite sometimes being called “software robots.”
+Computer vision and speech recognition for sensing the environment
+Natural language processing for understanding and processing instructions
+Cognitive modeling and affective computing for human-robot interaction
+Note: What is a Robot?
+A robot is a machine that uses sensors to perceive its environment and actuators to act on it. While robots in popular culture are often humanoid, most real-world robots are designed for specific applications. Autonomous vehicles, for example, are considered robots, while software tools like chatbots, often called “software robots,” are not classified as robots.
+
 Exercise 2: Taxonomy of AI
-For Exercise 2, you need to classify the following fields into sections of an Euler diagram, which helps visualize relationships between concepts.
+To classify fields into an Euler diagram, consider the relationships between AI, machine learning, computer science, data science, and deep learning:
 
-Suggested placement in the diagram:
-AI
-Section C – AI is the broadest concept, encompassing fields like machine learning, data science, and deep learning.
-
-Machine Learning
-Section D – A subset of AI, overlapping with fields like data science and statistics.
-
-Computer Science
-Section A – A broad field that includes AI and non-AI topics, intersecting with AI but not exclusively related to it.
-
-Data Science
-Section B – Overlaps with AI, particularly in the application of machine learning and statistics.
-
-Deep Learning
-Section E – A specific subfield of machine learning, contained within both machine learning and AI.
-
+AI: Section C – AI is the broadest concept, encompassing fields like machine learning, data science, and deep learning.
+Machine Learning: Section D – A subset of AI, overlapping with fields like data science and statistics.
+Computer Science: Section A – A broad field that includes AI and non-AI topics, intersecting with AI but not exclusively related to it.
+Data Science: Section B – Overlaps with AI, particularly in the application of machine learning and statistics.
+Deep Learning: Section E – A specific subfield of machine learning, contained within both machine learning and AI.
 Exercise 3: Examples of AI-Related Tasks
-Breakdown of involved fields for each task:
 Autonomous car
 Involves:
 
@@ -61,7 +49,7 @@ Machine learning
 Steering a rocket into orbit
 Involves:
 
-Robotics (primary need for controlling the engines and flight dynamics)
+Robotics (primarily for controlling engines and flight dynamics)
 Online ad optimization
 Involves:
 
@@ -75,3 +63,19 @@ Summarizing Gallup results
 Involves:
 
 Statistics (used to derive insights from data)
+Exercise 2: Taxonomy of AI Feedback
+1/5 answers correct:
+
+AI is a part of computer science.
+Machine learning is a part of AI.
+Computer science is broad and includes AI.
+Data science involves multiple domains, such as statistics and business, and is not fully within computer science.
+Deep learning is part of machine learning.
+Exercise 3: Examples of Tasks Feedback
+2/5 answers correct:
+
+Autonomous car: Correct – Involves statistics, robotics, and machine learning.
+Steering a rocket into orbit: Incorrect – Robotics is the main need for this task, not machine learning or statistics.
+Online ad optimization: Correct – Requires machine learning and statistics.
+Customer service chatbot: Incorrect – Mainly involves machine learning, not robotics.
+Summarizing Gallup results: Incorrect – This is a task for statistics, not machine learning or robotics.
