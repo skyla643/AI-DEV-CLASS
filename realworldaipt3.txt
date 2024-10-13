@@ -1,0 +1,93 @@
+III. Naive Bayes Classification
+The naive Bayes classifier is a powerful application of the Bayes rule and a common machine learning technique. It is used to classify objects like text documents into two or more categories, based on training data where the correct categories are known.
+
+How it works
+The naive Bayes classifier determines the probability of different categories (or classes) given a set of observations. The "naive" part comes from assuming that the features (e.g., words in an email) are conditionally independent given the class. This simplification is not always true, but it allows the method to work effectively in many real-world situations.
+
+Real-World Application: Spam Filters
+A common application of the naive Bayes classifier is in spam filtering. The class variable represents whether an email is spam or legitimate (also called “ham”). The words in the message are treated as features, and their presence helps the classifier decide whether the message is spam or not.
+
+Why It's Called "Naive"
+In the context of spam filters, the model assumes that each word in a message is chosen independently of the others, given whether the email is spam or ham. This simplification ignores the order of words and their dependencies, which is why the model is called "naive." Despite this, the method often works very well.
+
+Estimating Parameters
+To classify a message, we first need prior odds, such as the likelihood of spam vs. ham. For simplicity, we start with 1:1 odds, meaning we assume half of the emails are spam. Then, for each word in a message, we calculate the likelihood ratio based on how often the word appears in spam vs. ham messages.
+
+For example, let's look at the word “million”:
+
+The word “million” appears 156 times in 95,791 spam messages (1 in 614).
+In contrast, “million” appears 98 times in 306,438 ham messages (1 in 3,127).
+The likelihood ratio for “million” is:
+
+Likelihood ratio
+=
+1
+/
+614
+1
+/
+3127
+=
+5.1
+Likelihood ratio= 
+1/3127
+1/614
+​
+ =5.1
+Zero Means Trouble
+One problem with this approach is when a word doesn't appear in the training data, leading to zero estimates. This would result in undefined odds (e.g., 0/0), which is nonsensical. To avoid this, we use a small nonzero value like 
+1
+/
+100
+,
+000
+1/100,000 for such cases.
+
+Applying the Classifier
+We now have the likelihood ratios for some words:
+
+Word	Likelihood Ratio
+million	5.1
+dollars	0.8
+adclick	53.2
+conferences	0.3
+Using these ratios, we can classify a message by multiplying the prior odds by the likelihood ratios of the words in the message.
+
+Example: One Word Spam Filter
+If the message contains only the word “million,” and we start with prior odds of 1:1, we multiply by the likelihood ratio for “million”:
+
+Posterior odds
+=
+1
+×
+5.1
+=
+5.1
+Posterior odds=1×5.1=5.1
+This means there are 5.1 spam messages for every ham message containing the word "million."
+
+Example: Full Spam Filter
+Now let's classify a message with four words: "million dollars adclick conferences." Starting with prior odds of 1:1, we multiply by the likelihood ratios for each word:
+
+1
+×
+5.1
+×
+0.8
+×
+53.2
+×
+0.3
+=
+65.1168
+1×5.1×0.8×53.2×0.3=65.1168
+This means that for messages containing all these words, there are about 65 spam messages for every ham message.
+
+Conclusion
+Despite its simplicity, the naive Bayes classifier is highly effective in handling uncertain and conflicting evidence, as seen in applications like spam filtering. By applying probabilities and the Bayes rule, it helps classify text documents based on the words they contain.
+
+After completing this chapter, you should be able to:
+
+Express probabilities in terms of natural frequencies.
+Apply the Bayes rule to infer risks in simple scenarios.
+Explain the base-rate fallacy and avoid it through Bayesian reasoning.
