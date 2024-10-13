@@ -1,0 +1,110 @@
+The Bayes Rule
+In this section, we explore one of the most powerful tools for reasoning under uncertainty: Bayes Rule. It is simple yet incredibly effective for combining evidence, especially when dealing with conflicting or incomplete information, such as in medicine, law, and various scientific disciplines.
+
+Key Terminology
+Prior Odds: The odds of something happening before receiving new information.
+Posterior Odds: The updated odds after taking new information into account.
+How Bayes Rule Works
+Let’s break it down with an example. Imagine waking up in Finland, where the odds of rain on any given day are 206:159 (i.e., there are 206 rainy days and 159 dry days per year). These are your prior odds. Now, you see clouds in the morning. Based on past observations, if it's a rainy day, the probability of clouds is 9 out of 10 (90%), and if it's a dry day, the probability of clouds is 1 out of 10 (10%).
+
+We now calculate the likelihood ratio, which is:
+
+Likelihood ratio
+=
+Probability of clouds on a rainy day
+Probability of clouds on a dry day
+=
+9
+/
+10
+1
+/
+10
+=
+9
+Likelihood ratio= 
+Probability of clouds on a dry day
+Probability of clouds on a rainy day
+​
+ = 
+1/10
+9/10
+​
+ =9
+Using Bayes Rule, the formula for updating the odds is simple:
+
+Posterior odds
+=
+Likelihood ratio
+×
+Prior odds
+Posterior odds=Likelihood ratio×Prior odds
+For our example:
+
+Posterior odds
+=
+9
+×
+206
+:
+159
+=
+1854
+:
+159
+Posterior odds=9×206:159=1854:159
+This means that after observing clouds, the odds of rain are 1854:159, or roughly 12:1, indicating about a 92% chance of rain.
+
+Medical Example: Breast Cancer Screening
+Consider a screening test for breast cancer:
+
+Prevalence (Prior odds): 5 out of 100 women have breast cancer, so the prior odds are 5:95, or 1:19.
+Test Sensitivity: If a woman has breast cancer, the test correctly identifies it 80% of the time.
+False Positive Rate: If a woman doesn’t have breast cancer, the test incorrectly identifies it as positive 10% of the time.
+Now, we can calculate the likelihood ratio:
+
+Likelihood ratio
+=
+Sensitivity
+False positive rate
+=
+80
+/
+100
+10
+/
+100
+=
+8
+Likelihood ratio= 
+False positive rate
+Sensitivity
+​
+ = 
+10/100
+80/100
+​
+ =8
+Using Bayes Rule:
+
+Posterior odds
+=
+8
+×
+1
+:
+19
+=
+8
+:
+19
+Posterior odds=8×1:19=8:19
+Even with a positive test result, the odds are still 8:19, meaning it's still more likely that the woman does not have cancer.
+
+The Base Rate Fallacy
+Our intuition often fails when dealing with conflicting evidence. In the breast cancer example, while a positive test result seems alarming, the actual odds are lower than what we might intuitively believe. This is known as the base rate fallacy—we tend to overlook the underlying base rates (prior odds) when presented with new information (test results).
+
+Correct Answers
+Posterior odds for rain (Exercise 10): 1854:159
+Posterior odds for breast cancer (Exercise 11): 8:19
+These examples highlight how Bayes Rule can help us make rational decisions by properly weighing new evidence against prior knowledge.
